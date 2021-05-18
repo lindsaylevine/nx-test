@@ -2,14 +2,6 @@ import React from 'react';
 import styled from '@emotion/styled';
 import {useEffect, useState} from "react";
 
-export async function getStaticProps(context) {
-  const data = [];
-
-  return {
-    props: { data }, // will be passed to the page component as props
-  }
-}
-
 export function Index({data}) {
   console.log(data);
   /*
