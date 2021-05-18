@@ -1,7 +1,5 @@
 import React from 'react';
 
-import styles from './index.module.css';
-
 export function Index() {
   /*
    * Replace the elements below with your own.
@@ -9,7 +7,7 @@ export function Index() {
    * Note: The corresponding styles are in the ./index.css file.
    */
   return (
-    <div className={styles.page}>
+    <div>
       <h2>Resources &amp; Tools</h2>
       <p>Thank you for using and showing some ♥ for Nx.</p>
       <div className="flex github-star-container">
