@@ -14,12 +14,17 @@
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
-      },
-      "no-cloud": {
-        "runner": "@nrwl/workspace/src/tasks-runner/default-tasks-runner",
-        "options": {}
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ]
       }
+    },
+    "no-cloud": {
+      "runner": "@nrwl/workspace/src/tasks-runner/default-tasks-runner",
+      "options": {}
     }
   },
   "projects": {
@@ -28,7 +33,9 @@
     },
     "tuskdesk-e2e": {
       "tags": [],
-      "implicitDependencies": ["tuskdesk"]
+      "implicitDependencies": [
+        "tuskdesk"
+      ]
     }
   }
 }
